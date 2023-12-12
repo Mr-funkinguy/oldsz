@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="icon" href="https://github.com/sz-games/home/blob/main/G.png?raw=true">
+    <title>Sz Games</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+ 
+}
+
+.btn-group button {
+  background-color: black; /* Green background */
+ 
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: grey;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #9a9a9a, rgb(39, 39, 39));
+  color: white;
+  width: auto;
+  font-size: 30px;
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+}
+
+/* Page Content */
+
+</style>
+</head>
+<body>
+<style>
+    .game {
+        position: absolute;
+color: white;
+
+  transform: scale(1.8);
+  z-index: 3;
+  font-family: Arial, Helvetica, sans-serif;
+    }
+    .fade {
+        position: absolute;
+        background: linear-gradient(to bottom, #1d1d1d, #1d1d1d5d, rgba(39, 39, 39, 0));
+        width: 300px;
+        height: 150px;
+     border-radius: 15px;
+    }
+
+
+    $bg: rgba(0, 0, 0, 0.2);
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85vw;
+  margin: 1rem auto;
+}
+
+
+.bg,
+.overlay {
+  text-align: center;
+}
+
+img,
+.overlay {
+  transition: .3s all;
+  border-radius: 3px;
+}
+
+.bg {
+  float: left;
+  max-width: 31%;
+  position: relative;
+  margin: .5%;
+  img {
+    width: 100%;
+    margin-bottom: -4px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: $bg;
+    color: #fff;
+    opacity: 0;
+    h2 {
+      padding-top: 20%;
+      font-family: 'Droid Serif', serif;
+    }
+    p {
+      font-family: 'Julius Sans One', sans-serif;
+    }
+  }
+  &:hover {
+    .overlay {
+      opacity: 1;
+    }
+    img {
+      -webkit-filter: blur(2px);
+      filter: blur(2px);
+    }
+  }
+}
+
+@media screen and (max-width: 1148px) {
+  .bg {
+    max-width: 48%;
+    margin: 1%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg {
+    float: none;
+    max-width: 80%;
+    margin: 1% auto;
+  }
+}
+
+
+</style>
+    <div class="header">
+        <img src="https://github.com/sz-games/home/blob/main/G.png?raw=true" style="position: relative; width: 150px; height: 150px;" alt="img">
+        <h1>Sz Games</h1>
+      </div>
+      <br></br>
+
+
+<div style="float: left; ">
+    <a href="https://sz-games.github.io/home/webb/">
+        <!--p class="game" style="left: 105px;" >Infinite Tower</p>
+        <div class="fade" ></div-->
+     <img style="border-radius: 15px;" src="https://github.com/Mr-funkinguy/files-and-files/blob/main/tower.png?raw=true" alt="game">
+    </a>
+   
+    
+  </div>
+
+  <div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+ <div style=" float: left;">
+  <a href="https://sz-games.github.io/games/tunnel-rush/">
+    
+      <!--p class="game" >Tunnel Rush</p>
+      <div class="fade" ></div-->
+   <img style="border-radius: 15px;" src="https://github.com/Mr-funkinguy/files-and-files/blob/main/tunnel.png?raw=true" alt="game">
+  </a>
+ 
+  
+</div>
+
+
+<div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+<div style=" float: left;">
+  <a href="https://sz-games.github.io/games/spac/">
+    
+      <!--p class="game" >Space Wars </p>
+      <div class="fade" ></div-->
+   <img style="border-radius: 15px;" src="https://github.com/Mr-funkinguy/files-and-files/blob/main/space.png?raw=true" alt="game">
+  </a>
+ 
+  
+</div>
+    
+    <div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+    <div style=" float: left;">
+  <a href="https://sz-games.github.io/slope/">
+
+    <img style="border-radius: 15px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/slope.png?raw=true" alt="game">
+</div>
+      
+  </a>
+ 
+  
+</div>
+
+<div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+<div style=" float: left;">
+  <a href="https://sz-games.github.io/games/spacesh/">
+    <img style="border-radius: 15px; width: 300px; height: 275px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/spacesh.png?raw=true" alt="game">
+    
+</div>
+      
+  </a>
+ 
+  
+</div>
+
+<div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+
+<div style=" float: left;">
+  <a href="https://sz-games.github.io/games/backrooms">
+    <img style="border-radius: 15px; width: 300px; height: 275px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/back.png?raw=true" alt="game">
+    
+</div>
+      
+  </a>
+ 
+  
+</div>
+
+
+
+<div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+<div style=" float: left;">
+  <a href="https://sz-games.github.io/games/woods">
+    <img style="border-radius: 15px; width: 300px; height: 275px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/woods.png?raw=true" alt="game">
+    
+</div>
+      
+  </a>
+ 
+  
+</div>
+
+<div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+<div style=" float: left;">
+  <a href="https://sz-games.github.io/games/zombie">
+    <img style="border-radius: 15px; width: 300px; height: 275px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/zombie.png?raw=true" alt="game">
+
+      
+  </a>
+ 
+  
+</div>
+
+<div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+<div style=" float: left;">
+  <a href="https://sz-games.github.io/games/stackk">
+    <img style="border-radius: 15px; width: 300px; height: 275px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/stack.png?raw=true" alt="game">
+
+      
+  </a>
+</div>
+
+  <div style="color: transparent; width: 10px; height: 10px; float: left;">
+    <!--Space-->
+    </div>
+  
+  <div style=" float: left;">
+    <a href="https://sz-games.github.io/games/Bin/Game_file/call/hydra">
+      <img style="border-radius: 15px; width: 300px; height: 275px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/hydra.png?raw=true" alt="game">
+  
+        
+    </a>
+   
+
+
+</div>
+
+<div style="color: transparent; width: 10px; height: 10px; float: left;">
+  <!--Space-->
+  </div>
+
+<div style=" float: left;">
+  <a href="https://sz-games.github.io/games/dungeon">
+    <img style="border-radius: 15px; width: 300px; height: 275px;" src="https://github.com/sz-games/sz-games.github.io/blob/main/cover/dun.png?raw=true" alt="game">
+
+      
+  </a>
+ 
+
+
+</div>
+
+</body>
+</html>
